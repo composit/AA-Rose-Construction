@@ -1,6 +1,0 @@
-<div id='layout_text'>
-  <h2>Office Condominium Development</h2>
-</div>
-
-<%= link_to "download pdf", { :action => 'send_pdf', :name => "Lombard" }, { :class => 'download_link' } %>
-<%= image_tag("Lombard.png", :alt=>"Lombard Office Condominium Floorplan") %>

@@ -1,34 +1,0 @@
-8
-
-dir
-1135
-svn://205.209.135.29/usr/local/svn/comp9/aa_rose/aa_rose/trunk/test/mocks
-svn://205.209.135.29/usr/local/svn/comp9
-
-
-
-2007-12-03T13:22:01.854644Z
-833
-root
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-7988a6eb-1c1c-0410-b676-cc6347ec7622
-
-test
-dir
-
-development
-dir
-

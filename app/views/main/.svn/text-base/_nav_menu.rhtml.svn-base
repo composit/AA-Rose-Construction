@@ -1,9 +1,0 @@
-<ul id="top_menu">
-  <li><%= link_to "Home", :controller => "main", :action => "index" %></li>
-  <li><%= link_to "Ownership", :controller => "main", :action => "why_own" %></li>
-  <li><%= link_to "Arrange a Tour", :controller => "main", :action => "tour" %></li>
-  <li><%= link_to "Pricing", :controller => "main", :action => "pricing" %></li>
-  <li><%= link_to "Lombard", :controller => "main", :action => "lombard" %></li>
-  <li><%= link_to "Cantera", :controller => "main", :action => "cantera" %></li>
-  <li><%= link_to "Developments", :controller => "main", :action => "developments" %></li>
-</ul>
