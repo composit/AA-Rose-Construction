@@ -1,0 +1,55 @@
+8
+
+dir
+1135
+svn://205.209.135.29/usr/local/svn/comp9/aa_rose/aa_rose/trunk/vendor/rails/railties/lib/rails_generator/generators/components/migration
+svn://205.209.135.29/usr/local/svn/comp9
+
+
+
+2007-12-03T23:22:55.262160Z
+854
+root
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+7988a6eb-1c1c-0410-b676-cc6347ec7622
+
+migration_generator.rb
+file
+
+
+
+
+2008-06-04T02:23:56.000000Z
+3cee19bdde06f232931850bfe84bcb9e
+2007-12-03T23:22:55.262160Z
+854
+root
+
+USAGE
+file
+
+
+
+
+2008-06-04T02:23:56.000000Z
+fa02626692237ebb33d5d1b91ceac17e
+2007-12-03T23:22:55.262160Z
+854
+root
+
+templates
+dir
+

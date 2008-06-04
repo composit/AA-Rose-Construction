@@ -1,0 +1,40 @@
+8
+
+dir
+1135
+svn://205.209.135.29/usr/local/svn/comp9/aa_rose/aa_rose/trunk/vendor/rails/activerecord/test/connections/native_oracle
+svn://205.209.135.29/usr/local/svn/comp9
+
+
+
+2007-12-03T23:22:55.262160Z
+854
+root
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+7988a6eb-1c1c-0410-b676-cc6347ec7622
+
+connection.rb
+file
+
+
+
+
+2008-06-04T02:23:54.000000Z
+f522052657220291bdedf8c1315d3591
+2007-12-03T23:22:55.262160Z
+854
+root
+
