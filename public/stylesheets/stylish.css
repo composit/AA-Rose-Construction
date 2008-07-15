@@ -4,7 +4,7 @@ body#main {
   font-family: "Trebuchet MS", Arial, Verdana;
   background: url(/images/background.png);
   background-repeat: repeat-x;
-  background-color: #fff;
+  background-color: #ddd;
   color: #555;
 }
 
@@ -97,7 +97,6 @@ ul#top_menu li a:hover {
   position: absolute;
   top: 200px;
   right: 20px;
-  background-color: #fff;
   text-align: right;
 }
 
@@ -289,7 +288,7 @@ img#sidebar_logo {
 
 div#footer {
   width: 100%;
-  background-color: #c4b9a9;
+  background-color: #f93;
   border-top: 1px solid #a29787;
   padding-top: 5px;
   padding-bottom: 5px;
