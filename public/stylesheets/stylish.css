@@ -52,7 +52,6 @@ ul#top_menu {
 }
 
 ul li {
-  list-style-image: url(/images/li.gif);
   line-height: 20px;
   text-align: left;
 }
