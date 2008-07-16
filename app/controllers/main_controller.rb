@@ -15,6 +15,14 @@ class MainController < ApplicationController
     render :layout => 'floorplans'
   end
 
+  def cantera_site_plan
+    render :layout => 'floorplans'
+  end
+
+  def cantera_location_plan
+    render :layout => 'floorplans'
+  end
+
   def pricing
   end
 

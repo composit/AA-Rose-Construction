@@ -4,7 +4,7 @@ body#main {
   font-family: "Trebuchet MS", Arial, Verdana;
   background: url(/images/background.png);
   background-repeat: repeat-x;
-  background-color: #ddd;
+  background-color: #fff;
   color: #555;
 }
 
@@ -52,6 +52,7 @@ ul#top_menu {
 }
 
 ul li {
+  list-style-image: url(/images/li.gif);
   line-height: 20px;
   text-align: left;
 }
@@ -221,6 +222,11 @@ body#index_main #sidebar {
   text-align: center;
 }
 
+.location_link {
+  float: left;
+  margin: 0 20px;
+}
+
 .download_link {
   float: right;
   margin-right: 50px;
@@ -287,7 +293,7 @@ img#sidebar_logo {
 
 div#footer {
   width: 100%;
-  background-color: #f93;
+  background-color: #f30;
   border-top: 1px solid #a29787;
   padding-top: 5px;
   padding-bottom: 5px;
