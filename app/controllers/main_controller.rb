@@ -4,7 +4,10 @@ class MainController < ApplicationController
     render :layout => "index"
   end
 
-  def why_own
+  def cost
+  end
+
+  def advantages
   end
 
   def lombard

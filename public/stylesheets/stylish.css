@@ -136,7 +136,15 @@ ul#top_menu li a:hover {
   margin-right: auto;
   margin-left: auto;
   font-size: .8em;
-}
+  }
+
+  #own_info_text h2 {
+    font-size: 1.6em;
+  }
+
+  #own_info_text h3 {
+    font-size: 1.3em;
+  }
 
 #development_text {
   width: 600px;
