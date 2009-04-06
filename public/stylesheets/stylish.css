@@ -155,6 +155,7 @@ ul#top_menu li a:hover {
 
 ul.ownership_advantages {
   font-size: 1.2em;
+  width: 300px;
 }
 
 ul.ownership_advantages li {
