@@ -236,6 +236,10 @@ body#index_main #sidebar {
   margin: 0 20px;
 }
 
+.pricing_links {
+  float: right;
+}
+
 .download_link {
   float: right;
   margin-right: 50px;

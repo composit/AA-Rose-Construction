@@ -4,5 +4,10 @@
 
 <%= link_to "site plan", { :action => 'cantera_site_plan' }, { :class => 'location_link' } %>
 <%= link_to "location plan", { :action => 'cantera_location_plan' }, { :class => 'location_link' } %>
+<div class='pricing_links'>
+  pricing samples: 
+  <%= link_to "1", { :action => 'sample_pricing', :name => '4200_114' } %>
+  <%= link_to "2", { :action => 'sample_pricing', :name => '4200_115' } %>
+</div>
 <%= link_to "download pdf", { :action => 'send_pdf', :name => "Cantera" }, { :class => 'download_link' } %>
 <%= image_tag("Cantera.png", :alt=>"Cantera Office Condominium Floorplan") %>
