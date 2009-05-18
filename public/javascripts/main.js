@@ -1,7 +1,8 @@
 function emailForm(to_person){
-
   if(to_person=='walker'){
     addy = 'jrw@jrwalker.com';
+  }else if(to_person = 'deb'){
+    addy = 'deb@jrwalker.com';
   }
 
   var subject = "AA Rose Construction Website Request";

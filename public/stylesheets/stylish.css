@@ -99,17 +99,32 @@ ul#top_menu li a:hover {
   right: 20px;
 }
 
-#pricing_walker {
-  position: absolute;
-  top: 70px;
-  right: 0px;
-}
-
 #advantage_walker {
   position: absolute;
-  top: 70px;
+  bottom: 40px;
   right: 0px;
+  font-size: .7em;
+  }
+
+  #advantage_walker img {
+    width: 300px;
+  }
+
+#pricing_walker img {
+  margin-top: 20px;
+  width: 300px;
 }
+
+#more_info_walker {
+  position: absolute;
+  bottom: 40px;
+  right: 0px;
+  font-size: .7em;
+  }
+
+  #more_info_walker img {
+    width: 300px;
+  }
 
 .walker {
   text-align: right;
@@ -122,6 +137,12 @@ ul#top_menu li a:hover {
 .walker .details h2 {
   margin: 0;
   padding: 0;
+}
+
+.walker-column {
+  width: 45%;
+  float: left;
+  text-align: center;
 }
 
 #layout_text {
