@@ -2,5 +2,5 @@
   <h2>Sample Pricing</h2>
 </div>
 
-<%= link_to "download pdf", { :action => 'send_pdf', :name => @pricing_name }, { :class => 'download_link' } %>
+<%= link_to "download printer-friendly file", { :action => 'send_pdf', :name => @pricing_name }, { :class => 'download_link' } %>
 <%= image_tag(@pricing_name+".png") %>
