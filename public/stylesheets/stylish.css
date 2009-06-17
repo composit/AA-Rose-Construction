@@ -52,7 +52,7 @@ ul#top_menu {
 }
 
 ul li {
-  list-style-image: url(/images/li.gif);
+  /* list-style-image: url(/images/li.gif); */
   line-height: 20px;
   text-align: left;
 }
@@ -95,7 +95,7 @@ ul#top_menu li a:hover {
 
 #homepage_walker {
   position: absolute;
-  top: 200px;
+  top: 130px;
   right: 20px;
 }
 
@@ -137,6 +137,11 @@ ul#top_menu li a:hover {
 .walker .details h2 {
   margin: 0;
   padding: 0;
+}
+
+h2#walker-header {
+  margin-top: 90px;
+  text-align: center;
 }
 
 .walker-column {
@@ -255,7 +260,7 @@ body#index_main #sidebar {
 
 #index_text {
   position: absolute;
-  top: 530px;
+  top: 330px;
   width: 550px;
   color: #666;
 }
@@ -263,7 +268,7 @@ body#index_main #sidebar {
 #slogan_text {
   position: absolute;
   font-style: italic;
-  top: 635px;
+  top: 435px;
   width: 100%;
   text-align: center;
 }
@@ -294,7 +299,7 @@ img#logo {
 
 img#sidebar_logo {
   position:absolute;
-  top: 525px;
+  top: 325px;
   right: 20px;
 }
 
