@@ -483,8 +483,7 @@ p.small {
 }
 
 .slideshow {
-  float: right;
-  margin: 20px;
+  margin: 20px 0;
 }
 
 .clearer:after {
