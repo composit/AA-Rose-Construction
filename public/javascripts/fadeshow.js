@@ -21,6 +21,20 @@ var fadeimages2=new Array() //2nd array set example. Remove or add more sets as 
 fadeimages2[0]=["/images/Cantera_sign.jpg", "", ""]
 fadeimages2[1]=["/images/Cantera_front.jpg", "", ""]
 fadeimages2[2]=["/images/Cantera_interior.jpg", "", ""]
+
+var fadeimages3=new Array()
+fadeimages3[0]=["/images/carousel_1.jpg", "", ""]
+fadeimages3[1]=["/images/carousel_2.jpg", "", ""]
+fadeimages3[2]=["/images/carousel_3.jpg", "", ""]
+fadeimages3[3]=["/images/carousel_4.jpg", "", ""]
+fadeimages3[4]=["/images/carousel_5.jpg", "", ""]
+fadeimages3[5]=["/images/carousel_6.jpg", "", ""]
+fadeimages3[6]=["/images/carousel_7.jpg", "", ""]
+fadeimages3[7]=["/images/carousel_8.jpg", "", ""]
+fadeimages3[8]=["/images/carousel_9.jpg", "", ""]
+fadeimages3[9]=["/images/carousel_10.jpg", "", ""]
+fadeimages3[10]=["/images/carousel_11.jpg", "", ""]
+fadeimages3[11]=["/images/carousel_12.jpg", "", ""]
          
 var fadebgcolor="white"
 

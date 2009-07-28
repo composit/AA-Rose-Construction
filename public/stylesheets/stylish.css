@@ -486,6 +486,11 @@ p.small {
   margin: 20px 0;
 }
 
+.slideshow-right {
+  margin: 20px 0 20px 20px;
+  float: right;
+}
+
 .clearer:after {
   display: block;
   content: "";
