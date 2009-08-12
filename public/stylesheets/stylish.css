@@ -274,15 +274,18 @@ body#index_main #sidebar {
 }
 
 .location_link {
+  font-size: .8em;
   float: left;
   margin: 0 20px;
 }
 
 .pricing_links {
+  font-size: .8em;
   float: right;
 }
 
 .download_link {
+  font-size: .8em;
   float: right;
   margin-right: 50px;
 }
