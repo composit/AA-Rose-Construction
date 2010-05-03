@@ -15,8 +15,8 @@ development:
   adapter: mysql
   database: aa_rose_development
   username: aa_rose
-  password: Neaff40fly
-  host: 205.209.135.29
+  password:
+  host: localhost
 
 # Warning: The database defined as 'test' will be erased and
 # re-generated from your development database when you run 'rake'.
@@ -25,12 +25,12 @@ test:
   adapter: mysql
   database: aa_rose_test
   username: aa_rose
-  password: Neaff40fly
-  host: 205.209.135.29
+  password:
+  host: localhost
 
 production:
   adapter: mysql
   database: aarosec_production
   username: aarosec_aarose
-  password: Neaff40fly
+  password:
   host: localhost
