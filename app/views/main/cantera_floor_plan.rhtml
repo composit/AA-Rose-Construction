@@ -1,0 +1,8 @@
+<%= render( :partial => "cantera_nav" ) %>
+<%= link_to "download printer-friendly file", { :action => 'send_pdf', :name => "CanteraFloorPlan" }, { :class => 'download_link' } %>
+<br />
+<div id='layout_text'>
+  <h2>Office Condominium Development - Floor Plan</h2>
+</div>
+
+<%= image_tag("cantera_floor_plan.png", :alt=>"Cantera Office Condominium Floorplan") %>

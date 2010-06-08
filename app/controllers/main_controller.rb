@@ -18,6 +18,10 @@ class MainController < ApplicationController
     render :layout => 'floorplans'
   end
 
+  def cantera_floor_plan
+    render :layout => 'floorplans'
+  end
+
   def cantera_site_plan
     render :layout => 'floorplans'
   end
