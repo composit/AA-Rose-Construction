@@ -5,3 +5,4 @@ public/.htaccess
 public/dispatch.fcgi
 vendor/git-1.0.5
 config/environment.rb
+db/*.sqlite3
