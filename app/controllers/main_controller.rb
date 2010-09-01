@@ -1,5 +1,4 @@
 class MainController < ApplicationController
-
   def index
     render :layout => "index"
   end
@@ -49,4 +48,6 @@ class MainController < ApplicationController
     send_file pdf if pdf
   end
 
+  def more_info
+  end
 end

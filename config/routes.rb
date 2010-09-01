@@ -1,22 +1,69 @@
-ActionController::Routing::Routes.draw do |map|
-  # The priority is based upon order of creation: first created -> highest priority.
-  
+AaRose::Application.routes.draw do
+  # The priority is based upon order of creation:
+  # first created -> highest priority.
+
   # Sample of regular route:
-  # map.connect 'products/:id', :controller => 'catalog', :action => 'view'
+  #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action
 
   # Sample of named route:
-  # map.purchase 'products/:id/purchase', :controller => 'catalog', :action => 'purchase'
+  #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase
   # This route can be invoked with purchase_url(:id => product.id)
 
-  # You can have the root of your site routed by hooking up '' 
-  # -- just remember to delete public/index.html.
-  # map.connect '', :controller => "welcome"
+  # Sample resource route (maps HTTP verbs to controller actions automatically):
+  #   resources :products
 
-  # Allow downloading Web Service WSDL as a file with an extension
-  # instead of a file named 'wsdl'
-  map.connect ':controller/service.wsdl', :action => 'wsdl'
+  # Sample resource route with options:
+  #   resources :products do
+  #     member do
+  #       get 'short'
+  #       post 'toggle'
+  #     end
+  #
+  #     collection do
+  #       get 'sold'
+  #     end
+  #   end
 
-  # Install the default route as the lowest priority.
-  map.connect ':controller/:action/:id', :controller => 'main'
+  # Sample resource route with sub-resources:
+  #   resources :products do
+  #     resources :comments, :sales
+  #     resource :seller
+  #   end
+
+  # Sample resource route with more complex sub-resources
+  #   resources :products do
+  #     resources :comments
+  #     resources :sales do
+  #       get 'recent', :on => :collection
+  #     end
+  #   end
+
+  # Sample resource route within a namespace:
+  #   namespace :admin do
+  #     # Directs /admin/products/* to Admin::ProductsController
+  #     # (app/controllers/admin/products_controller.rb)
+  #     resources :products
+  #   end
+
+  # You can have the root of your site routed with "root"
+  # just remember to delete public/index.html.
+  # root :to => "welcome#index"
+
+  # See how all your routes lay out with "rake routes"
+
+  # This is a legacy wild controller route that's not recommended for RESTful applications.
+  # Note: This route will make all actions in every controller accessible via GET requests.
+  # match ':controller(/:action(/:id(.:format)))'
+  root :to => "main#index"
+  match 'pricing' => 'main#pricing'
+  match 'more_info' => 'main#more_info'
+  match 'advantages' => 'main#advantages'
+  match 'lombard' => 'main#lombard'
+  match 'cantera' => 'main#cantera'
+  match 'cantera_floor_plan' => 'main#cantera_floor_plan'
+  match 'cantera_site_plan' => 'main#cantera_site_plan'
+  match 'cantera_location_plan' => 'main#cantera_location_plan'
+  match 'developments' => 'main#developments'
+  match 'send_pdf/:name' => 'main#send_pdf'
 end
