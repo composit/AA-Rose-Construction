@@ -44,8 +44,8 @@ class MainController < ApplicationController
   end
 
   def send_pdf
-    pdf = "#{RAILS_ROOT}/public/images/" + params[:name] + ".pdf"
-    send_file pdf if pdf
+    #send_file( "#{RAILS_ROOT}/public/images/#{params[:name]}.pdf", :type => "application/pdf", :disposition => "attachment" )
+    redirect_to "/images/#{params[:name]}.pdf"
   end
 
   def more_info

@@ -1,6 +1,8 @@
+.rvmrc
 .bundle
 config/database.yml
 config/environment.rb
+config/setup_load_paths.rb
 db/*.sqlite3
 log/*.log
 tmp/**/*
