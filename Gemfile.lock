@@ -78,6 +78,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  passenger (>= 3.0.6)
+  passenger (>= 3.0.7)
   rails (= 3.0.6)
   sqlite3-ruby
