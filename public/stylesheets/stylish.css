@@ -32,23 +32,23 @@ div#it {
 }
 
 body#index_main div#it {
-  min-height:650px;
+  min-height: 500px;
 }
 
 div#top {
   width: 100%;
+  text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
   margin-bottom: 50px;
   color: #fff;
-  text-align: center;
   font-family: Verdana, Arial, Helvetica, sans-serif;
   font-size: 100%;
   font-variant: small-caps;
 }
 
 ul#top_menu {
-  margin-left:60px;
+  margin-left: 60px;
 }
 
 ul li {
@@ -249,7 +249,7 @@ body#index_main #sidebar {
 
 #mainbar_full {
   width: 100%;
-  min-height: 500px;
+  min-height: 440px;
 }
 
 #mainbar_center {
@@ -260,6 +260,7 @@ body#index_main #sidebar {
 #index_text {
   position: absolute;
   top: 330px;
+  left: 200px;
   width: 550px;
   color: #666;
 }
@@ -268,8 +269,8 @@ body#index_main #sidebar {
   position: absolute;
   font-style: italic;
   top: 435px;
+  left: 200px;
   width: 100%;
-  text-align: center;
 }
 
 .location_link {
@@ -296,8 +297,8 @@ img#logo {
 
 img#sidebar_logo {
   position:absolute;
-  top: 325px;
-  right: 20px;
+  top: 225px;
+  left: 200px;
 }
 
 .introduction {

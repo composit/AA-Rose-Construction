@@ -48,6 +48,6 @@ class MainController < ApplicationController
     redirect_to "/images/#{params[:name]}.pdf"
   end
 
-  def more_info
-  end
+  #def more_info
+  #end
 end
