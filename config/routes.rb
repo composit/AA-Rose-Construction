@@ -57,7 +57,7 @@ AaRose::Application.routes.draw do
   # match ':controller(/:action(/:id(.:format)))'
   root :to => "main#index"
   match 'pricing' => 'main#pricing'
-  match 'more_info' => 'main#more_info'
+  #match 'more_info' => 'main#more_info'
   match 'advantages' => 'main#advantages'
   match 'lombard' => 'main#lombard'
   match 'cantera' => 'main#cantera'
