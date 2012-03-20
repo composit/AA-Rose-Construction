@@ -7,6 +7,7 @@ gem 'rails', '3.0.12'
 
 gem 'sqlite3-ruby', :require => 'sqlite3'
 gem 'heroku'
+gem 'capistrano'
 
 # Use unicorn as the web server
 # gem 'unicorn'
