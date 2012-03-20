@@ -149,6 +149,60 @@ h2#walker-header {
   text-align: center;
 }
 
+#walker-footer {
+  text-align: center;
+  font-family: Times serif;
+  margin: 20px 0;
+  color: #333;
+  }
+
+  #walker-footer .red {
+    color: #a60000;
+  }
+
+  #walker-footer h2 {
+    text-transform: uppercase;
+    margin: 2px 0;
+  }
+
+  #walker-footer h3 {
+    text-transform: uppercase;
+    margin: 2px 0;
+    font-size: 16px;
+  }
+
+  #walker-footer h4 {
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-size: 28px;
+  }
+
+  #walker-footer h5 {
+    background-color: #333;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 10px 0;
+    padding: 10px 0;
+    font-size: 28px;
+  }
+
+  #walker-footer .footer-columns {
+    width: 100%;
+    overflow: hidden;
+    }
+
+    #walker-footer .footer-columns .column {
+      width: 48%;
+      float: left;
+      }
+
+      #walker-footer .footer-columns .column p {
+        margin: 0;
+      }
+  #walker-footer img {
+    margin: 15px 0 0 0;
+  }
+
 #layout_text {
   padding: 0 40px 20px 40px;
 }
