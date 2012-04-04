@@ -64,6 +64,7 @@ AaRose::Application.routes.draw do
   match 'cantera_floor_plan' => 'main#cantera_floor_plan'
   match 'cantera_site_plan' => 'main#cantera_site_plan'
   match 'cantera_location_plan' => 'main#cantera_location_plan'
+  match 'cantera_introduction' => 'main#cantera_introduction'
   match 'developments' => 'main#developments'
   match 'send_pdf/:name' => 'main#send_pdf'
 end

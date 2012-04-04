@@ -29,6 +29,10 @@ class MainController < ApplicationController
     render :layout => 'floorplans'
   end
 
+  def cantera_introduction
+    render :layout => 'floorplans'
+  end
+
   def pricing
   end
 

@@ -548,3 +548,17 @@ p.small {
 #lombard-info {
   text-align: center;
 }
+
+#cantera-introduction {
+  margin-left: 38px;
+  width: 720px;
+  padding-top: 40px;
+}
+
+  #cantera-introduction p {
+    font-family: Times New Roman, Times, serif;
+    font-size: 13pt;
+    color: #000;
+    text-align: justify;
+    padding: 0 10px;
+  }
