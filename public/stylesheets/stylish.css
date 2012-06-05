@@ -549,6 +549,11 @@ p.small {
   text-align: center;
 }
 
+#cantera-header {
+  padding-top: 50px;
+  text-align: center;
+}
+
 #cantera-introduction {
   margin-left: 38px;
   width: 720px;
@@ -562,3 +567,17 @@ p.small {
     text-align: justify;
     padding: 0 10px;
   }
+
+#testimonial-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#testimonial-header h3, #testimonial-header p {
+  margin: 0;
+}
+
+#testimonial-body {
+  text-align: justify;
+  margin-left: 40px;
+}
