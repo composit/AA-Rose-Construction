@@ -7,6 +7,8 @@ gem 'rails', '3.0.19'
 
 gem 'sqlite3', '~> 1.3.7'
 gem 'capistrano', '~> 2.14.1'
+gem 'rvm-capistrano', '~> 1.2.7'
+gem 'unicorn', '~> 4.5.0'
 
 # Use unicorn as the web server
 # gem 'unicorn'
