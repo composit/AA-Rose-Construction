@@ -19,9 +19,9 @@ set :scm, :git # You can set :scm explicitly or Capistrano will make an intellig
 
 server 'murder', :app, :web, :db, primary: true
 
-after 'deploy:update_code' do
-  run "ln -nsf #{deploy_to}/shared/config/database.yml #{release_path}/shared/config/database.yml"
-end
+#after 'deploy:update_code' do
+#  run "ln -nsf #{deploy_to}/shared/config/database.yml #{release_path}/config/database.yml"
+#end
 
 # if you want to clean up old releases on each deploy uncomment this:
 after "deploy:restart", "deploy:cleanup"
