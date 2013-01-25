@@ -1,4 +1,4 @@
-set :application, "aarose"
+set :application, "aaroseconstruction"
 set :repository,  "git@github.com:composit/AA-Rose-Construction.git"
 ssh_options[:forward_agent] = true
 set :deploy_via, :remote_cache
