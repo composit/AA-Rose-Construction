@@ -1,5 +1,4 @@
 .bundle
-config/database.yml
 config/environment.rb
 config/setup_load_paths.rb
 db/*.sqlite3
