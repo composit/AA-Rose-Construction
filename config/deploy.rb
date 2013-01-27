@@ -20,6 +20,7 @@ server 'murder', :app, :web, :db, primary: true
 
 after "deploy:restart", "deploy:cleanup"
 
-before 'deploy:assets:precompile' do
+#before 'deploy:assets:precompile' do
+after 'deploy:update_code' do
   run "ln -nfs #{deploy_to}/shared/config/application.yml #{release_path}/config/application.yml"
 end
