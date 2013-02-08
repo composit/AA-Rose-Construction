@@ -1,5 +1,4 @@
 .bundle
-config/database.yml
 config/environment.rb
 config/setup_load_paths.rb
 db/*.sqlite3
@@ -10,3 +9,4 @@ log/*
 public/.htaccess
 public/dispatch.fcgi
 vendor/git-1.0.5
+config/application.yml
