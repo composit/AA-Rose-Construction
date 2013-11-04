@@ -10,6 +10,7 @@ gem 'capistrano', '~> 2.14.1'
 gem 'rvm-capistrano', '~> 1.2.7'
 gem 'unicorn', '~> 4.5.0'
 gem 'json'
+gem 'rails_12factor', group: :production
 
 # Use unicorn as the web server
 # gem 'unicorn'
