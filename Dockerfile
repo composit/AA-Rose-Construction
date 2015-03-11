@@ -42,3 +42,4 @@ WORKDIR /rails/aaroseconstruction
 RUN bundle install --binstubs --deployment --without test development
 
 CMD bundle exec unicorn_rails -E production -c /rails/aaroseconstruction/config/unicorn.rb
+
