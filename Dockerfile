@@ -34,13 +34,11 @@ RUN mkdir -p /rails/aaroseconstruction/tmp/sockets
 RUN chown -R rails:rails /rails/aaroseconstruction
 
 ADD drunkship_files/application.yml /rails/aaroseconstruction/config/application.yml
-ADD drunkship_files/interim_database.yml /rails/aaroseconstruction/config/database.yml
+ADD drunkship_files/database.yml /rails/aaroseconstruction/config/database.yml
 ADD drunkship_files/unicorn.rb /rails/aaroseconstruction/config/unicorn.rb
 
 USER rails
 WORKDIR /rails/aaroseconstruction
 RUN bundle install --binstubs --deployment --without test development
-RUN bundle exec rake assets:precompile
-ADD drunkship_files/database.yml /rails/aaroseconstruction/config/database.yml
 
 CMD bundle exec unicorn_rails -E production -c /rails/aaroseconstruction/config/unicorn.rb

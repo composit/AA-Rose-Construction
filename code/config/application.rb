@@ -6,7 +6,7 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(:default, Rails.env) if defined?(Bundler)
 
-CONFIG = YAML.load( File.read( File.expand_path( '../application.yml', __FILE__ ) ) ) unless Rails.env.production?
+CONFIG = YAML.load( File.read( File.expand_path( '../application.yml', __FILE__ ) ) )
 
 module AaRose
   class Application < Rails::Application
