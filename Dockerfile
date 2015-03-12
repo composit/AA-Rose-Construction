@@ -25,21 +25,21 @@ WORKDIR /tmp
 RUN bundle install --binstubs --deployment --without test development
 
 USER root
-ADD code /rails/aaroseconstruction
+ADD code /rails/aarose
 # move the gems into the app 
-RUN mv /tmp/.bundle /rails/aaroseconstruction
-RUN mv /tmp/vendor/bundle /rails/aaroseconstruction/vendor
-RUN mv /tmp/bin /rails/aaroseconstruction/bin
-RUN mkdir -p /rails/aaroseconstruction/tmp/sockets
-RUN chown -R rails:rails /rails/aaroseconstruction
+RUN mv /tmp/.bundle /rails/aarose
+RUN mv /tmp/vendor/bundle /rails/aarose/vendor
+RUN mv /tmp/bin /rails/aarose/bin
+RUN mkdir -p /rails/aarose/tmp/sockets
+RUN chown -R rails:rails /rails/aarose
 
-ADD drunkship_files/application.yml /rails/aaroseconstruction/config/application.yml
-ADD drunkship_files/database.yml /rails/aaroseconstruction/config/database.yml
-ADD drunkship_files/unicorn.rb /rails/aaroseconstruction/config/unicorn.rb
+ADD drunkship_files/application.yml /rails/aarose/config/application.yml
+ADD drunkship_files/database.yml /rails/aarose/config/database.yml
+ADD drunkship_files/unicorn.rb /rails/aarose/config/unicorn.rb
 
 USER rails
-WORKDIR /rails/aaroseconstruction
+WORKDIR /rails/aarose
 RUN bundle install --binstubs --deployment --without test development
 
-CMD bundle exec unicorn_rails -E production -c /rails/aaroseconstruction/config/unicorn.rb
+CMD bundle exec unicorn_rails -E production -c /rails/aarose/config/unicorn.rb
 
