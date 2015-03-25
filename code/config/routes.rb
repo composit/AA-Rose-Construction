@@ -55,7 +55,9 @@ AaRose::Application.routes.draw do
   # This is a legacy wild controller route that's not recommended for RESTful applications.
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id(.:format)))'
-  root :to => "main#index"
+  #root :to => "main#index"
+  root :to => "main#cantera_floor_plan"
+  match 'home' => 'main#index'
   match 'pricing' => 'main#pricing'
   match 'more_info' => 'main#more_info'
   match 'advantages' => 'main#advantages'
