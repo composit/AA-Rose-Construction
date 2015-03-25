@@ -31,6 +31,7 @@ RUN mv /tmp/.bundle /rails/aarose
 RUN mv /tmp/vendor/bundle /rails/aarose/vendor
 RUN mv /tmp/bin /rails/aarose/bin
 RUN mkdir -p /rails/aarose/tmp/sockets
+RUN mkdir -p /rails/aarose/log
 RUN chown -R rails:rails /rails/aarose
 
 ADD drunkship_files/application.yml /rails/aarose/config/application.yml
