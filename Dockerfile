@@ -32,6 +32,7 @@ RUN mv /tmp/vendor/bundle /rails/aarose/vendor
 RUN mv /tmp/bin /rails/aarose/bin
 # This may be necessary outside of Kubernetes?
 #RUN mkdir -p /rails/aarose/tmp/sockets
+RUN mkdir -p /rails/aarose/tmp
 RUN mkdir -p /rails/aarose/log
 RUN chown -R rails:rails /rails/aarose
 
