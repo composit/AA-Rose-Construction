@@ -30,9 +30,7 @@ ADD code /rails/aarose
 RUN mv /tmp/.bundle /rails/aarose
 RUN mv /tmp/vendor/bundle /rails/aarose/vendor
 RUN mv /tmp/bin /rails/aarose/bin
-# This may be necessary outside of Kubernetes?
-#RUN mkdir -p /rails/aarose/tmp/sockets
-RUN mkdir -p /rails/aarose/tmp
+RUN mkdir -p /rails/aarose/tmp/sockets
 RUN mkdir -p /rails/aarose/log
 RUN chown -R rails:rails /rails/aarose
 
@@ -45,4 +43,3 @@ WORKDIR /rails/aarose
 RUN bundle install --binstubs --deployment --without test development
 
 CMD bundle exec unicorn_rails -E production -c /rails/aarose/config/unicorn.rb
-
