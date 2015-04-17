@@ -5,8 +5,6 @@ db/*.sqlite3
 log/*.log
 tmp/**/*
 tmp/*
-log/*
 public/.htaccess
 public/dispatch.fcgi
 vendor/git-1.0.5
-config/application.yml

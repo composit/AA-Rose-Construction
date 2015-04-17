@@ -4,8 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-if Rails.env.production?
-  AaRose::Application.config.secret_token = ENV['AAROSE_SECRET_TOKEN']
-else
-  AaRose::Application.config.secret_token = CONFIG[:secret_token]
-end
+AaRose::Application.config.secret_token = ENV['SECRET_TOKEN']
