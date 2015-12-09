@@ -1,4 +1,4 @@
-app_root = "/rails/aarose"
+app_root = "/home/rails/aarose/current"
 
 worker_processes 2
 working_directory "#{app_root}"
