@@ -39,8 +39,8 @@ set :linked_files, fetch(:linked_files, []).push('config/database.yml', 'config/
 unicorn_pid = "#{current_path}/tmp/pids/unicorn.pid"
 
 namespace :deploy do
-  task :restart, roles: :app, except: { no_release: true } do
-    run "#{try_sudo} kill -s USR2 `cat #{unicorn_pid}`"
+  task :restart do
+    invoke 'unicorn:restart'
   end
 
   after :restart, :clear_cache do
