@@ -1,4 +1,4 @@
-FROM ruby:1.9.3-slim
+FROM composit/ruby212
 
 Maintainer Matthew Rose
 

@@ -1,5 +1,6 @@
 .bundle
 config/environment.rb
+config/application.yml
 config/setup_load_paths.rb
 db/*.sqlite3
 log/*.log
