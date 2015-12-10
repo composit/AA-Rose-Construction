@@ -25,11 +25,10 @@ set :deploy_to, '/home/rails/aarose'
 
 # Default value for :linked_files is []
 # set :linked_files, fetch(:linked_files, []).push('config/database.yml', 'config/secrets.yml')
-set :linked_files, fetch(:linked_files, []).push('config/application.yml')
+set :linked_files, fetch(:linked_files, []).push('config/database.yml', 'config/application.yml')
 
 # Default value for linked_dirs is []
 # set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', 'public/system')
-set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', 'public/system')
 
 # Default value for default_env is {}
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
@@ -37,10 +36,7 @@ set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', '
 # Default value for keep_releases is 5
 # set :keep_releases, 5
 
-set :unicorn_config_path, "#{current_path}/config/unicorn.rb"
-set :unicorn_rack_env, "production"
-
-after 'deploy:publishing', 'deploy:restart'
+unicorn_pid = "#{current_path}/tmp/pids/unicorn.pid"
 
 namespace :deploy do
   task :restart do
