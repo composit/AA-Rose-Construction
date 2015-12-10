@@ -8,7 +8,6 @@ gem 'rails', '~> 3.0.20'
 gem 'sqlite3', '~> 1.3.7'
 gem 'capistrano', '~> 3.0'
 gem 'unicorn', '~> 4.5.0'
-gem 'capistrano3-unicorn'
 gem 'json'
 gem 'rails_12factor', group: :production
 
