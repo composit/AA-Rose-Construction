@@ -1,4 +1,4 @@
-set :user, 'app'
-set :deploy_to, '/u/apps/aaroseconstruction'
+set :user, 'rails'
+set :deploy_to, '/home/rails/aarose'
 set :branch, 'master'
 set :rails_env, 'production'
